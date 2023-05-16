@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="blog" transform="translate(-1531.744 -33.744)">
+    <rect id="Rectangle_1787" data-name="Rectangle 1787" width="16" height="16" transform="translate(1531.744 33.744)" fill="none"/>
+    <g id="download" transform="translate(1518.068 35.168)">
+      <g id="Group_3452" data-name="Group 3452" transform="translate(18.649 1)">
+        <g id="Group_3451" data-name="Group 3451" transform="translate(0)">
+          <path id="Path_5388" data-name="Path 5388" d="M134.018,5.2a.379.379,0,0,0-.344-.209H132.16V.357A.368.368,0,0,0,131.782,0h-1.514a.368.368,0,0,0-.378.357V4.994h-1.514a.381.381,0,0,0-.344.209.34.34,0,0,0,.06.382l2.649,2.854a.393.393,0,0,0,.569,0l2.649-2.854A.34.34,0,0,0,134.018,5.2Z" transform="translate(-127.998)" fill="#0e1013"/>
+        </g>
+      </g>
+      <g id="Group_3454" data-name="Group 3454" transform="translate(16 8.367)">
+        <g id="Group_3453" data-name="Group 3453" transform="translate(0)">
+          <path id="Path_5389" data-name="Path 5389" d="M25.838,352v2.27H17.514V352H16v3.027a.757.757,0,0,0,.757.757h9.838a.756.756,0,0,0,.757-.757V352Z" transform="translate(-16 -352)" fill="#0e1013"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,486 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/subset-DMSans-Bold.eot');
+    src: url('../fonts/subset-DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-DMSans-Bold.woff2') format('woff2'),
+        url('../fonts/subset-DMSans-Bold.woff') format('woff'),
+        url('../fonts/subset-DMSans-Bold.ttf') format('truetype'),
+        url('../fonts/subset-DMSans-Bold.svg#DMSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/subset-DMSans-Medium.eot');
+    src: url('../fonts/subset-DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-DMSans-Medium.woff2') format('woff2'),
+        url('../fonts/subset-DMSans-Medium.woff') format('woff'),
+        url('../fonts/subset-DMSans-Medium.ttf') format('truetype'),
+        url('../fonts/subset-DMSans-Medium.svg#DMSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/subset-DMSans-Regular.eot');
+    src: url('../fonts/subset-DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-DMSans-Regular.woff2') format('woff2'),
+        url('../fonts/subset-DMSans-Regular.woff') format('woff'),
+        url('../fonts/subset-DMSans-Regular.ttf') format('truetype'),
+        url('../fonts/subset-DMSans-Regular.svg#DMSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.clear_fix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Header Start  */
+    header{
+        width: 100%;
+    }
+    .header_top{
+        width: 100%;
+        height: 70px;
+        background-color: #ffffffff;
+    }
+    .center{
+        width: 1200px;
+        margin: 0px auto;
+    }
+    .logo_and_info{
+        display: flex;
+        align-items: center;
+        float: left;
+    }
+    .logo{
+        width: 136px;
+        height: 40px;
+        margin: 15px 0px;
+        display: inline-block;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        display: block;
+    }
+    .info{
+        min-width: 211px;
+        min-height: 40px;
+        display: inline-block;
+        margin-left: 15px;
+        background: #F1F3F4 0% 0% no-repeat padding-box;
+        font-family: 'DM Sans', sans-serif;
+        padding: 11px 20px;
+        border: 1px dashed #dadce0;
+        border-radius: 2px 24px 24px 24px;
+        -webkit-border-radius: 2px 24px 24px 24px;
+        -moz-border-radius: 2px 24px 24px 24px;
+        -ms-border-radius: 2px 24px 24px 24px;
+        -o-border-radius: 2px 24px 24px 24px;
+    }
+    .about_and_social_media_icons{
+        float: right;
+    }
+    .about{
+        padding: 26px 0px;
+        margin-right: 30px;
+        float: left;
+    }
+    .about ul{
+        margin: 0px -10px;
+        padding: 0px;
+        list-style: none;
+    }
+    .about ul li{
+        list-style-type: none;
+        padding: 0px 10px;
+        float: left;
+    }
+    .about ul li a{
+        text-decoration: none;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        display: block;
+        color: #2F343F;
+    }
+    .social_media_icons{
+        padding: 15px 0px;
+        float: left;
+    }
+    .social_media_icons ul{
+        margin: 0px -10px;
+        padding: 0px;
+        list-style: none;
+    }
+    .social_media_icons ul li{
+        list-style-type: none;
+        padding: 0px 5px;
+        float: left;
+    }
+    .social_media_icons ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #dadce0;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .social_media_icons ul li a img{
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+    .header_bottom{
+        width: 100%;
+        position: relative;
+        background-color: #83502E;
+    }
+    .navigaiton_menu{
+        padding: 16px 0px;
+        float: left;
+    }
+    .navigaiton_menu ul{
+        margin: 0px -10px;
+        padding: 0px;
+        list-style: none;
+    }
+    .navigaiton_menu ul li{
+        list-style-type: none;
+        padding: 0px 10px;
+        float: left;
+    }
+    .navigaiton_menu ul li a{
+        text-decoration: none;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        display: block;
+        color: #ffffffff;
+    }
+    .catalog_menu{
+        float: right;
+        padding: 13px 0px;
+    }
+    .catalog_menu ul{
+        list-style: none;
+        margin: 0px -10px;
+        padding: 0px;
+    }
+    .catalog_menu ul li{
+        list-style-type: none;
+        padding: 0px 10px;
+        float: left;
+    }
+    .catalog_menu ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'DM Sans', sans-serif;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 2px 0px;
+        color: #ffffffff;
+    }
+    .catalog_menu ul li a img{
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-right: 4px;
+    }
+    .search_icon{
+        width: 24px;
+        height: 24px;
+        margin-left: 22px;
+        float: left;
+        display: block;
+    }
+    .search_icon button{
+        width: 100%;
+        height: 100%;
+        background: none !important;
+        outline: none !important;
+        border: none !important;
+        background-image: url('../images/search.svg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow: hidden;
+        cursor: pointer;
+        display: block;
+    }
+/* Header End */
+
+/* Section Start */
+    .section{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .section_title{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section_title h3{
+        font-family: 'DM Sans', sans-serif;
+        font-size: 30px;
+        line-height: 39px;
+        font-weight: 700;
+        display: block;
+        color: #0E1013;
+    }
+    .section_card{
+        width: 100%;
+        display: block;
+    }
+    .section_news_box:nth-child(3n+1){
+        clear: both;
+    }
+    .section_news_box{
+        width: 33%;
+        float: left;
+    }
+    .section_news_post{
+        float: left;
+        margin-bottom: 30px;
+    }
+    .section_news_image{
+        width: 386px !important;
+        height: 217px !important;
+        margin-bottom: 16px;
+    }
+    .section_news_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        display: block;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .section_news_content{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .section_news_date span:first-child{
+        font-family: 'DM Sans', sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #BD7E4A;
+    }
+    .section_news_date span:last-child{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        line-height: 16px;
+        font-size: 12px;
+        color: #80868B;
+    }
+    .section_news_txt h3{
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        line-height:24px;
+        font-weight: 600;
+        color: #2F343F;
+    }
+/* Section End */
+
+/* Footer Start  */
+    footer{
+        width: 100%;
+        background-color: #F1F3F4;
+    }
+    .footer_top{
+        width: 100%;
+        padding: 40px 0px;
+        border-bottom: 1px dashed #dadce0;
+        display: flex;
+        align-items: center;
+    }
+    .footer_logo{
+        width: 136px;
+        height: 40px;
+        display: block;
+        float: left;
+    }
+    .footer_info{
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        margin-left: 11px;
+        font-family: 'DM Sans', sans-serif;
+        padding: 11px 20px;
+        border: 1px dashed #dadce0;
+        color: #2F343F;
+        float: left;
+        display: block;
+        border-radius: 2px 24px 24px 24px;
+        -webkit-border-radius: 2px 24px 24px 24px;
+        -moz-border-radius: 2px 24px 24px 24px;
+        -ms-border-radius: 2px 24px 24px 24px;
+        -o-border-radius: 2px 24px 24px 24px;
+    }
+    .footer_social_media_icons{
+        float: right;
+    }
+    .footer_social_media_icons ul{
+        list-style: none;
+        margin: 0px -10px;
+        padding: 0px;
+    }
+    .footer_social_media_icons ul li{
+        list-style-type: none;
+        float: left;
+    }
+    .footer_social_media_icons ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #dadce0;
+        margin-right: 10px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .footer_bottom_center{
+        padding: 41px 51px;
+        border-bottom: 1px solid #dadce0;
+    }
+    .footer_container_center{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .footer_menu_box{
+        width: 14%;
+        float: left;
+    }
+    .footer_menu_box ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer_menu_box ul li{
+        padding-bottom: 20px;
+    }
+    .footer_menu_box ul li a{
+        font-family: 'DM Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #2F343F;
+    }
+    .footer_icons{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        right: 4px;
+        top: 6px;
+    }
+    .footer_icons{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 6px;
+        right: 4px;
+    }
+    .footer_btm{
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .footer_copyright{
+        width: 53.42%;
+        float: left;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: 'DM Sans', sans-serif;
+        color: #80868B;
+    }
+    .footer_right_live{
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+/* Footer End */

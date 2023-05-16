@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogerler Template</title>
+    <link rel="icon" type="x-icon" href="images/LitPark.svg">
+    <link rel="stylesheet" href="css/bloger.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC 7pNI="crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+</head>
+<body>
+    <!-- Header Start  -->
+        <header>
+            <div class="header_top">
+                <div class="center">
+                    <div class="logo_and_info clear_fix">
+                        <a href="https://litpark.az/az/blog/" class="logo">
+                            <img src="images/LitPark.svg" alt="">
+                        </a>
+                        <div class="info">
+                            <p>Sənət və ədəbiyyat dərgisi</p>
+                        </div>
+                    </div>
+                    <div class="about_and_social_media_icons clear_fix">
+                        <div class="about">
+                            <ul>
+                                <li><a href="https://litpark.az/az/blog/">Haqqımızda</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Reklam</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                        <div class="social_media_icons">
+                            <ul>
+                                <li><a href="https://litpark.az/az/blog/"><img src="images/fb.svg" alt=""></a></li>
+                                <li><a href="https://litpark.az/az/blog/"><img src="images/ins.svg" alt=""></a></li>
+                                <li><a href="https://litpark.az/az/blog/"><img src="images/teleg.svg" alt=""></a></li>
+                                <li><a href="https://litpark.az/az/blog/"><img src="images/yt.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom clear_fix">
+                <div class="center">
+                    <nav class="navigation_menu">
+                        <ul>
+                            <li><a href="https://litpark.az/az/blog/">Ana səhifə</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Gündəm</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Müsahibə/Sorğu</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Sənət</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Ədəbi gənclik</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Kino/Teatr</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Fəlsəfə</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Foto</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Video</a></li>
+                            <li><a href="https://litpark.az/az/blog/">Digər</a></li>
+                        </ul>
+                    </nav>
+                    <div class="library_icon_catalog">
+                        <ul>
+                            <li>
+                                <a href="https://litpark.az/az/blog/">
+                                    <img src="images/blog.svg" alt="">
+                                    <p>Blog</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://litpark.az/az/blog/">
+                                    <img src="images/book_a.svg" alt="">
+                                    <p>Səsli kitab</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://litpark.az/az/blog/">
+                                    <img src="images/book_e.svg" alt="">
+                                    <p>Elektron kitabxana</p>
+                                </a>
+                            </li>
+                            <div class="search_bar">
+                                <button></button>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-- Header End -->
+
+
+
+
+    <!-- Section Start  -->
+        <section>
+            <div class="center">
+                <div class="section_blog">
+                    <div class="section_blog_title">
+                        <h3>Bloggerlər</h3>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="section_bloger_box">
+                                <a href="https://litpark.az/az/blog/" class="section_bloger_post">
+                                    <div class="section_bloger_image">
+                                        <img src="images/1646295352_130811_kvnu9pib9w.jpg" alt="">
+                                    </div>
+                                    <div class="section_bloger_txxt">
+                                        <h5>Səxavət Sahil</h5>
+                                    </div>
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="section_bloger_box">
+                                <a href="https://litpark.az/az/blog/" class="section_bloger_post">
+                                    <div class="section_bloger_image">
+                                        <img src="images/1646296977_122536_2dswrummjw.jpg" alt="">
+                                    </div>
+                                    <div class="section_bloger_txxt">
+                                        <h5>Aida Qasimova</h5>
+                                    </div>
+                                </a>
+                            </div>
+                          </div> 
+                          <div class="swiper-slide">
+                            <div class="section_bloger_box">
+                                <a href="https://litpark.az/az/blog/" class="section_bloger_post">
+                                    <div class="section_bloger_image">
+                                        <img src="images/1646295471_Rahid_Ulusel.jpg" alt="">
+                                    </div>
+                                    <div class="section_bloger_txxt">
+                                        <h5>Rahid Ulusel</h5>
+                                    </div>
+                                </a>
+                            </div>
+                          </div> 
+                          <div class="swiper-slide">
+                            <div class="section_bloger_box">
+                                <a href="https://litpark.az/az/blog/" class="section_bloger_post">
+                                    <div class="section_bloger_image">
+                                        <img src="images/1646295239_28jpg-1607936975.jpg" alt="">
+                                    </div>
+                                    <div class="section_bloger_txxt">
+                                        <h5>Fərid Hüseyn</h5>
+                                    </div>
+                                </a>
+                            </div>
+                          </div>
+                        </div>  
+                      </div>
+                </div>
+                <div class="section_bottom">
+                    <div class="section_bottom_title">
+                        <h3>Bloglar</h3>
+                    </div>
+                    <div class="section_card">
+                        <div class="section_news_box">
+                            <a href="https://litpark.az/az/blog/" class="section_news_post">
+                                <div class="section_news_image">
+                                    <img src="images/1646301398_https___d1e00ek4ebabms.cloudfront.net_production_042ca462-4d5a-47ed-a126-2fdd1cdee14c.jpg" alt="">
+                                </div>
+                                <div class="section_news_extra_content">
+                                    <div class="section_news_extra_image">
+                                        <img src="images/1646295239_28jpg-1607936975.jpg" alt="">
+                                    </div>
+                                    <div class="section_news_extra_content_title">
+                                        <div class="section_news_extra_title">
+                                            <h6>Fərid Hüseyn</h6>
+                                        </div>
+                                        <div class="section_news_category_date">
+                                            <span>Ədəbi gənclik</span>
+                                            <span>03 Mart 2022 / 13:56</span>
+                                        </div>
+                                        <div class="section_news_txnxx">
+                                            <h2>
+                                                <span style="color: #ff0000;">
+                                                    <strong>
+                                                        Şeytanın suallarına tanrının cavabları
+                                                    </strong>
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="section_news_box">
+                            <a href="https://litpark.az/az/blog/" class="section_news_post">
+                                <div class="section_news_image">
+                                    <img src="images/1646300980_130811_kvnu9pib9w (1).jpg" alt="">
+                                </div>
+                                <div class="section_news_extra_content">
+                                    <div class="section_news_extra_image">
+                                        <img src="images/1646295352_130811_kvnu9pib9w.jpg" alt="">
+                                    </div>
+                                    <div class="section_news_extra_content_title">
+                                        <div class="section_news_extra_title">
+                                            <h6>Səxavət Sahil</h6>
+                                        </div>
+                                        <div class="section_news_category_date">
+                                            <span>Ədəbi gənclik</span>
+                                            <span>03 Mart 2022 / 13:05</span>
+                                        </div>
+                                        <div class="section_news_txnxx">
+                                            <h2>
+                                                <span style="color: #ff0000;">
+                                                    <strong>
+                                                        Şairlərin hiyləgərliyi 
+                                                    </strong>
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="section_news_box">
+                            <a href="https://litpark.az/az/blog/" class="section_news_post">
+                                <div class="section_news_image">
+                                    <img src="images/1646296698_nesimi_1.jpg" alt="">
+                                </div>
+                                <div class="section_news_extra_content">
+                                    <div class="section_news_extra_image">
+                                        <img src="images/1646296977_122536_2dswrummjw.jpg" alt="">
+                                    </div>
+                                    <div class="section_news_extra_content_title">
+                                        <div class="section_news_extra_title">
+                                            <h6>Aida Qasımova</h6>
+                                        </div>
+                                        <div class="section_news_category_date">
+                                            <span>Söz</span>
+                                            <span>03 Mart 2022 / 12:40</span>
+                                        </div>
+                                        <div class="section_news_txnxx">
+                                            <h2>
+                                                <span style="color: #ff0000;">
+                                                    <strong>
+                                                        Şah-bazi ənənəsi və onun Nəsimi şeirində əksi
+                                                    </strong>
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="section_news_box">
+                            <a href="https://litpark.az/az/blog/" class="section_news_post">
+                                <div class="section_news_image">
+                                    <img src="images/1646296359_eyx_-mehemmed-qezali_2-noyabr_medium.jpg" alt="">
+                                </div>
+                                <div class="section_news_extra_content">
+                                    <div class="section_news_extra_image">
+                                        <img src="images/1646295294_Məsiağa_Məhəmmədi.jpg" alt="">
+                                    </div>
+                                    <div class="section_news_extra_content_title">
+                                        <div class="section_news_extra_title">
+                                            <h6>Aida Qasımova</h6>
+                                        </div>
+                                        <div class="section_news_category_date">
+                                            <span>Ədəbiyyat</span>
+                                            <span>03 Mart 2022 / 12:30</span>
+                                        </div>
+                                        <div class="section_news_txnxx">
+                                            <h2>
+                                                <span style="color: #ff0000;">
+                                                    <strong>
+                                                        Nizami və Qəzzali
+                                                    </strong>
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="section_news_box">
+                            <a href="https://litpark.az/az/blog/" class="section_news_post">
+                                <div class="section_news_image">
+                                    <img src="images/1646204454_felsefenin-ozellikleri-nedir-min.jpg" alt="">
+                                </div>
+                                <div class="section_news_extra_content">
+                                    <div class="section_news_extra_image">
+                                        <img src="images/1646295471_Rahid_Ulusel.jpg" alt="">
+                                    </div>
+                                    <div class="section_news_extra_content_title">
+                                        <div class="section_news_extra_title">
+                                            <h6>Rahid Ulusel</h6>
+                                        </div>
+                                        <div class="section_news_category_date">
+                                            <span>Fəlsəfə</span>
+                                            <span>02 Mart 2022 / 11:03</span>
+                                        </div>
+                                        <div class="section_news_txnxx">
+                                            <h2>
+                                                <span>
+                                                    <strong>
+                                                        Səhnədə heç kim yoxdur 
+                                                    </strong>
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="section_news_box">
+                            <a href="https://litpark.az/az/blog/" class="section_news_post">
+                                <div class="section_news_image">
+                                    <img src="images/1646202289_huseyncavid4455.jpg" alt="">
+                                </div>
+                                <div class="section_news_extra_content">
+                                    <div class="section_news_extra_image">
+                                        <img src="images/1646295557_maxresdefault.jpg" alt="">
+                                    </div>
+                                    <div class="section_news_extra_content_title">
+                                        <div class="section_news_extra_title">
+                                            <h6>Məsiağa Məhəmmədi</h6>
+                                        </div>
+                                        <div class="section_news_category_date">
+                                            <span>Gündəm</span>
+                                            <span>02 Mart 2022 / 10:21</span>
+                                        </div>
+                                        <div class="section_news_txnxx">
+                                            <h2>
+                                                <span style="color: #ff0000;">
+                                                    <strong>
+                                                        Hüseyn Cavid romantik deyil 
+                                                    </strong>
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Section End -->
+
+
+
+
+    <!-- Footer Start  -->
+        <footer>
+            <div class="footer_top clear_fix">
+                <div class="center">
+                    <a href="https://litpark.az/az/blog/" class="footer_logo">
+                        <img src="images/LitPark.svg" alt="">
+                    </a>
+                    <a href="https://litpark.az/az/blog/" class="footer_info">
+                        Sənət və ədəbiyyat dərgisi
+                    </a>
+                    <div class="footer_social_media_icons clear_fix">
+                        <ul>
+                            <li><a href="https://litpark.az/az/blog/"><img src="images/fb.svg" alt=""></a></li>
+                            <li><a href="https://litpark.az/az/blog/"><img src="images/ins.svg" alt=""></a></li>
+                            <li><a href="https://litpark.az/az/blog/"><img src="images/teleg.svg" alt=""></a></li>
+                            <li><a href="https://litpark.az/az/blog/"><img src="images/yt.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_center clear_fix">
+                <div class="center">
+                    <div class="footer_center_container clear_fix">
+                        <div class="footer_center_menu_box">
+                            <ul>
+                                <li><a href="https://litpark.az/az/blog/">Ana səhifə</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Gündəm</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Müsahibə/Sorğu</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Sənət</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_center_menu_box">
+                            <ul>
+                                <li><a href="https://litpark.az/az/blog/">Ədəbi gənclik</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Kino/Teatr</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Fəlsəfə</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Foto</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_center_menu_box">
+                            <ul>
+                                <li><a href="https://litpark.az/az/blog/">Video</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Ədəbiyyat</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Söz</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Nəsr</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_center_menu_box">
+                            <ul>
+                                <li><a href="https://litpark.az/az/blog/">Poeziya</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Haqqımızda</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Reklam</a></li>
+                                <li><a href="https://litpark.az/az/blog/">Əlaqə</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_center_menu_box">
+                            <ul>
+                                <li>
+                                    <a href="https://litpark.az/az/blog/">
+                                        <img class="footer_icons" src="images/book_f.png" alt="">
+                                        Elektron kitabxana
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://litpark.az/az/blog/">
+                                        <img class="footer_icons" src="images/book_f_2.png" alt="">
+                                        Səsli kitab
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://litpark.az/az/blog/">
+                                        <img class="footer_icons" src="images/blog_f.png" alt="">
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_bottom clear_fix">
+                        <div class="center">
+                            <div class="footer_copyright">
+                                © 2022 litpark.az Müəllif hüquqları qorunur. Məlumatdan istifadə etdikdə istinad mütləqdir.
+                                Məlumat internet səhifələrində istifadə edildikdə müvafiq keçidin qoyulması tələb olunur.
+                            </div>
+                            <div class="footer_live">
+                                <img src="images/hit.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- Footer End -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop:true,
+        slidesPerView: 7,
+        spaceBetween: 20,
+        centeredSlides: true,
+        autoplay: {
+          delay:100,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>
